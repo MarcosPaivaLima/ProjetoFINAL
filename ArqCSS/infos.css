@@ -1,0 +1,125 @@
+.investe{
+background-size: cover;
+width: 27%;   
+border-radius: 10%;
+transition: all 1s linear;            
+}
+.investe:hover{
+zoom: normal;
+transition: 500ms linear;
+transition-property: all;
+transform: scale(1.1);
+}
+.segurovida{
+background-size: cover;
+background-position: center;
+width: 27%;      
+border-radius: 10%; 
+transition: all 1s linear;            
+}
+
+.segurovida:hover{
+zoom: normal;
+transition: 500ms linear;
+transition-property: all;
+transform: scale(1.1);
+}
+.novidades{
+width: 27%;   
+border-radius: 10%;
+transition: all 1s linear;            
+}
+.novidades:hover{
+zoom: normal;
+transition: 500ms linear;
+transition-property: all;
+transform: scale(1.1);
+}
+.pai{
+justify-content: center;
+background-color: #20B2AA;
+display: flex;
+gap: 50px;
+width: 100%;
+height: 360px;    
+}
+h2{
+text-align: center;    
+}
+p{
+padding-top: 80px;
+text-align: center;    
+}
+.segurocor{
+color: black;    
+padding-top: 35px;
+}
+.segurotitulocor{
+font-size: 35px;
+color:  #040404;   
+}
+.novicor{
+color: rgb(0, 0, 0);    
+}
+.novititulocor{
+color:  #000000;  
+}
+.pai2{
+gap: 50px;
+background-color: #20B2AA;
+display: flex;
+width: 100%;
+height: 350px;
+justify-content: center;
+}
+.aumento{
+    background-size: cover;
+    width: 28%;   
+    border-radius: 10%;
+    transition: all 1s linear;            
+    }
+    .aumento:hover{
+    zoom: normal;
+    transition: 500ms linear;
+    transition-property: all;
+    transform: scale(1.1);
+    }
+.cartaov{
+    background-size: cover;
+    width: 27%;   
+    border-radius: 10%;
+    transition: all 1s linear;            
+    }
+    .cartaov:hover{
+    zoom: normal;
+    transition: 500ms linear;
+    transition-property: all;
+    transform: scale(1.1);
+    }
+.segurocel{
+    background-size: cover;
+    width: 27%;   
+    border-radius: 10%;
+    transition: all 1s linear;            
+    }
+    .segurocel:hover{
+    zoom: normal;
+    transition: 500ms linear;
+    transition-property: all;
+    transform: scale(1.1);
+    }
+/* cor do titulo e do paragrafo do aumento */
+.aumentotitulo{
+color:  #020202;    
+}
+.coraumento{
+color: black;
+padding-top: 8sepx;    
+}
+/* cor do titulo e do paragrafo do cartao virtual */
+.cartaovtitulo{
+    color: #0b0e0e;  
+    }
+    .corcartaov{
+    color: black;    
+    }

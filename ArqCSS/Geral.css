@@ -1,0 +1,328 @@
+body{
+    font-family: 'Alegreya', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    }
+  /*Primeira tela, inicio (LOGUIM & VIDEO COM LOGO)*/  
+    .inicio{
+        width: 100%;
+        height: 630px;
+        background-repeat: no-repeat;
+        background-size: cover;       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+
+    }
+    a{
+        text-decoration: none;
+    }
+    .titulo{
+    width: 40%;
+    height: 300px;
+
+    }
+    .logop{
+    padding-top: 80px;
+    width: 550px;
+    height: 470px;
+    transition: all 1s linear;            
+    }
+    .logo:hover{
+    zoom: normal;
+    transition: 500ms linear;
+    transition-property: all;
+    transform: scale(1.1);
+    }
+    /* css loguin */
+.cadastro{
+    width: 28%;
+    height: 300px;
+     background-color: rgb(235, 235, 235);
+     border-radius: 50px;
+     margin-bottom: 150px;
+    }
+    .login{
+        display: flex;
+    }
+    .p{
+    font-size: 20px;
+    }
+    .th1{
+        font-size: 50px;
+        padding-top: 280px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+.login{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    border: none;
+    border-radius: 30px;
+    background-color:  #20B2AA;
+    width: 50%;
+    height: 35px;
+}
+button:hover{
+    background-color: #20B2AA;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid;
+    outline: none;
+    margin-bottom: 10px;
+    
+
+}
+.checkbox{
+    
+}
+input:hover{
+    border-bottom: 2px solid #20B2AA;
+ 
+}
+   /*pagina 2*/
+    .pag2{
+        background-color: white;
+        display: flex;
+        width: 100%;
+        height: 400px;
+    }
+    .texto{
+    width: 50%;
+    height: 400px;   
+}
+    .img2{
+        width: 400px;
+        height: 300px;
+        transition: all 1s linear;
+
+    }
+    .img2:hover{
+        zoom: normal;
+        transition: 500ms linear;
+        transition-property: all;
+        transform: scale(1.1);
+
+        
+    }
+    /* Segunda tela (cartão de crédito) */
+    .conteiner2{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+    }
+    .imgcont2{
+        border-radius: 40px;
+        width: 350px;
+        height: 370px;
+        border-radius: 40px;
+        transition: all 1s linear;
+    }
+    .imgcont2:hover{
+        zoom: normal;
+        transition: 500ms linear;
+        transition-property: all;
+        transform: scale(1.1);
+    }
+    
+    .th2{
+        text-align: center;
+        font-size: 50px;
+        color: #20B2AA;
+    }
+    .titulo{
+        width: 50%;
+        height: 600px;
+        text-align: center;
+    }
+    .texto{
+        width: 50%;
+        height: 600px;
+    }
+    h2{
+    text-align: center;  
+  }
+    p{ 
+    text-align: center;
+    }
+    .cortexto{
+     color: rgb(0, 0, 0);  
+     padding-top: 50px;
+     
+    }
+    h1{
+    color: white;    
+    }
+    img{
+    width: 300px;
+    height: 300px;    
+    }
+
+    /* Pag 3 (JM INVESTE)*/
+    .th3{
+        color:  lightseagreen;
+        font-size: 30px;
+    }
+    .pag3{
+        width: 100%;
+        height: 500px;
+        display: flex;
+  
+    }
+    .conteiner3{
+        width: 50%;
+        height: 500px;
+        text-align: center;
+        font-size: 25px;
+        background-color:rgb(236, 233, 233);
+    }
+    .ti3{
+        font-size: 80px;
+        color: lightseagreen;
+    }
+    p{
+        font-size: 20px;
+    }
+    .imgcont3{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+
+    }
+    .img3:hover{
+        zoom: normal;
+        transition-property: all;
+        transform: scale(1.1);
+    }
+    .imgcont3{
+       background-color:    rgb(236, 233, 233);
+       
+    }
+    .img3{
+        width: 350px;
+        height: 370px;
+        border-radius: 40px;
+        transition: all 1s linear;
+
+    }
+
+    /* PAGINA 4 (AREA PIX) */
+    .pag4{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: row;
+        background-color:  lightseagreen;
+    }
+    .conteiner4{
+        width: 40%;
+        height: 380px;
+        font-size: 25px;
+        color: aliceblue;
+    }
+    .imgcont4{
+        background-color:  lightseagreen;
+        width: 50%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ti4{
+        text-align: center;
+        color: white;
+    }
+    .img4{
+        width: 320px;
+        height: 380px;
+        border-radius: 40px;
+        transition: all 1s linear;
+    }
+    .img4:hover{
+        zoom: normal;
+        transition-property: all;
+        transform: scale(1.1);
+    }
+    /* OPÇÕES DE SAIBA MAIS */
+    .geral{
+    padding-top: 50px;
+    background-color: white;
+    width: 100%;
+    height: 330px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    }
+    .g1{
+        width: 300px;
+        height: 300px;
+        align-items: center;
+        text-align: center;
+        transition: all 1s linear;
+
+    }
+
+    .imgg1{
+        border-radius: 30px;
+        width: 160px;
+        height: 160px;
+        transition: all 1s linear;
+
+    }
+    .imgg1:hover{
+        zoom: normal;
+        transition: 500ms linear;
+        transition-property: all;
+        transform: scale(1.1);
+    }
+    h3{
+        font-size: 20px;
+    }
+    .rodape{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        background-color: #24252A;
+        box-shadow: 20px 3px 25px #464646;
+    }
+    .redes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 550px;
+        height: 150px;
+        gap: 20px;
+    }
+    .info{
+        width: 50%;
+        font-size: 10px;
+        text-align: center;
+    }   
+    .imgrodape{
+        width: 50px;
+        height: 50px;
+    }
