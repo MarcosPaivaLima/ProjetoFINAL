@@ -1,5 +1,5 @@
 var fatura;
-fatura = 19;
+fatura = 31;
 if(fatura <= 20){
     document.getElementById('fatura').innerHTML = "Fatura aberta";    
 }else{
