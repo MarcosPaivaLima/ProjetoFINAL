@@ -124,7 +124,7 @@ $cpf =  $_SESSION['CPF'];
                 <div class="nav-principal">
                         <h2 id="fatura"></h2>
                         <p>Valor: <b class="red"> <?php print number_format($fatura_valor,2,",","."); ?> </b></p>
-                        <p>vencimento: <b>Sua fatura fecha <?php print $fatura_vencimento ?> </b></p>
+                        <p>vencimento: <b>Sua fatura vence <?php print $fatura_vencimento ?> </b></p>
                         <p>Limite disponível: <b class="blue"> <?php print number_format($limite,2,",",".");?> </b></p><br>
                         <button class="nav-b">Fatura</button>
                         </div><hr> <br>
