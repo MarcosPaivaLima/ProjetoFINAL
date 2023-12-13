@@ -201,5 +201,4 @@ $cpf =  $_SESSION['CPF'];
                 </div>
         </div>
         <script src="Script/indexMenu.JS"></script>
-        <h1>Commit att versão 2</h1>
 </body>
