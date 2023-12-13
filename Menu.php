@@ -185,7 +185,9 @@ $cpf =  $_SESSION['CPF'];
 
                 <div class="nav-sec">
                         <div class="img-nav-p">
+                                <a href="http://127.0.0.1:5500/index.html">
                                 <img src="imagens/Inserir m subtítulo.png" class="imgnav">
+                                </a>
                         </div>
 
                         <div class="img-nav-p">
