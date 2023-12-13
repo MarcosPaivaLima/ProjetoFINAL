@@ -133,8 +133,8 @@ $cpf =  $_SESSION['CPF'];
 
                  <div class="paipix" id="paip">
                         <!-- Seletor TRANSFERIR -->
-                        <div onclick="LiberarTR()" onclick="CrescerPIPI()" class="tpix">
-                        <img onclick="LiberarTR()" class="imgpaipix" src="imagens/transferencia-de-dados.png"><br><br>
+                        <div  onclick="LiberarTR()" class="tpix">
+                        <img  class="imgpaipix" src="imagens/transferencia-de-dados.png"><br><br>
                         <p>Transferir</p>
                         </div>  
                         <!-- Seletor COPIA E COLA -->
@@ -163,14 +163,15 @@ $cpf =  $_SESSION['CPF'];
 
                         <div id="pt"  class="formact">
                         <a onclick="Fecharpixtrans()" class="buttontr1">x</a>
-                                <div class="title">Transferência</div>
-                                <div class="subtitle">Informações pix!</div>
-                                <div class="input-container ic1">
-                                        <input id="firstname" type="text" id="cpf" placeholder="Digite a chave Pix " />
-                                        <div class="cut"></div>
+                                <div class="title">Qual valor de tranferência</div>
+                                <div class="subtitle">Saldo disponível em conta <?php print number_format($saldo,2,",","."); ?></div>
+
+                                <div class="input-container ic2">
+                                        <input id="lastname"  type="text" id="valor" placeholder="R$ <?php print number_format($saldo,2,",","."); ?>" />
+                                        <div class="cut"></div>        
                                 </div>
                                 <div class="input-container ic2">
-                                        <input id="lastname"  type="text" id="valor" placeholder=" Digite o valor da transferência" />
+                                        <input id="lastname"  type="text" id="valor" placeholder="Digite a chave pix, <?php print $nome; ?>" />
                                         <div class="cut"></div>        
                                 </div>
 
